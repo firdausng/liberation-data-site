@@ -1,0 +1,41 @@
+.box-2 {
+    background: transparent;
+  
+  
+    // h3:before {
+    //     position: absolute;
+    //     display: inline-block;
+    //     content: '';
+    //     width: 45px;
+    //     height: 4px;
+    //     left: 50%;
+    //     margin-left: -22px;
+    //     bottom: -11px;
+    //     background: #383838;
+    // }
+  
+  }
+  
+  .hr {
+    display: inline-block;
+  }
+  
+  .hr:after {
+    content: '';
+    display: block;
+    border-top: 3px solid #383838;
+    margin: auto;
+    width: 50px;
+    margin-top: 10px;
+  }
+  
+  
+  
+  h2 {
+    font: bold 24px/30px 'Open Sans', Arial, sans-serif;
+  }
+  
+  h3 {
+    font: bold 15px/20px 'Open Sans', Arial, sans-serif;
+  }
+  

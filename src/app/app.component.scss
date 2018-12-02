@@ -1,0 +1,12 @@
+.hr {
+  display: inline-block;
+}
+
+.hr:after {
+  content: '';
+  display: block;
+  border-top: 3px solid #383838;
+  margin-top: 0.5em;
+}
+
+
