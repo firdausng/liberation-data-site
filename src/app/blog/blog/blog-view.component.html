@@ -1,2 +1,15 @@
-<div class="container">
-</div>
+<ld-jumbotron-section *ngFor="let content of contentList"  [title]='content.name' [transparent]="false">
+  <markdown [src]="content.download_url"></markdown>
+        <!-- <div class="row">
+          <div class="col-lg-6">
+            <img src="/assets/images/rocket.jpg" class="rounded mx-auto d-block" alt="launch date">
+          </div>
+          <div class="col-lg-6">
+            <h3>LIBERATION DATA OFFICIALLY LAUNCHED ON NOVEMBER 26TH, 2018</h3>
+            <p>That makes us about a day old. Go us!</p>
+            <p>Stay tuned - during the week, we'll be launching our blog, followed by with a software product. And we’ll
+              slotting that in around client work, which is taking place ahead of our first on-site Neo4j training course in
+              Melbourne. Sounds busy? It sure is, but hey, it never feels like work when you’re doing what you love, right?</p>
+          </div>
+        </div> -->
+</ld-jumbotron-section>

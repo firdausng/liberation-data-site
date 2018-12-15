@@ -1,12 +1,12 @@
 import { TestBed } from '@angular/core/testing';
 
-import { GithubServiceService } from './github-service.service';
+import { GithubService } from './github.service';
 
 describe('GithubServiceService', () => {
   beforeEach(() => TestBed.configureTestingModule({}));
 
   it('should be created', () => {
-    const service: GithubServiceService = TestBed.get(GithubServiceService);
+    const service: GithubService = TestBed.get(GithubService);
     expect(service).toBeTruthy();
   });
 });
